@@ -1,154 +1,65 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Very Banana Software</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="homepage is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Very Banana Software</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav-header">
+    <div class="logo">Very Banana Software</div>
+    <nav>
+      <ul>
+        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-			<!-- Header -->
-				<div id="header-wrapper">
-					<div id="header" class="container">
-						<h1 id="logo"><a href="index.html">Very Banana Software</a></h1>
-						<nav id="nav">
-							<ul>
-								<li><a href="#solutions">Solutions</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contact</a></li>
-							</ul>
-						</nav>
-					</div>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Smarter Healthcare Data</h1>
+      <p>Better Clinical Outcomes</p>
+      <p class="sub">Fast, secure, and practical tools for frontline healthcare teams.</p>
+      <a class="button" href="#solutions">Explore our tools</a>
+    </div>
+  </section>
 
-					<!-- Hero -->
-						<section id="hero" class="container">
-							<header>
-								<h2>Smarter healthcare data
-								<br />
-								Better clinical outcomes</h2>
-							</header>
-							<p>We build fast, secure, and practical tools for frontline healthcare teams.
-							<br />
-							From billing automation to trauma dashboards, our software solves real problems.</p>
-							<ul class="actions">
-								<li><a href="#solutions" class="button">Explore our tools</a></li>
-							</ul>
-						</section>
-				</div>
+  <section id="solutions" class="section">
+    <h2>Our Solutions</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Billing Automation</h3>
+        <p>Streamline billing with tools designed for clinicians, not coders.</p>
+      </div>
+      <div class="card">
+        <h3>Trauma Dashboards</h3>
+        <p>Real-time insights for trauma teams and quality improvement audits.</p>
+      </div>
+      <div class="card">
+        <h3>Custom EMR Tools</h3>
+        <p>Build lightweight utilities that complement Cerner and EPIC workflows.</p>
+      </div>
+    </div>
+  </section>
 
-			<!-- Features 1 -->
-				<div class="wrapper" id="solutions">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower feature">
-								<div class="image-wrapper first">
-									<a href="#" class="image featured first"><img src="images/billing.jpg" alt="Billing automation" /></a>
-								</div>
-								<header>
-									<h2>Automated Billing Workflows</h2>
-								</header>
-								<p>Capture billable episodes directly from EHR data. Automatically assign MBS codes. Reduce missed claims and speed up revenue generation.</p>
-							</section>
-							<section class="col-6 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/dashboard.jpg" alt="Dashboard example" /></a>
-								</div>
-								<header>
-									<h2>Live Clinical Dashboards</h2>
-								</header>
-								<p>Generate live trauma and ICU dashboards to track injuries, tasks, team activity, and patient flow with zero manual data entry.</p>
-							</section>
-						</div>
-					</div>
-				</div>
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+      Very Banana Software is a doctor-led startup focused on building software that actually helps clinicians.
+      We design, build, and test real tools that solve real problems at the bedside.
+    </p>
+  </section>
 
-			<!-- Promo -->
-				<div id="promo-wrapper">
-					<section id="promo">
-						<h2>Built by clinicians. Used by clinicians.</h2>
-						<a href="#about" class="button">Meet the team</a>
-					</section>
-				</div>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Want a demo or to collaborate? Email <a href="mailto:hello@verybanana.com">hello@verybanana.com</a>.</p>
+  </section>
 
-			<!-- Features 2 -->
-				<div class="wrapper" id="about">
-					<section class="container">
-						<header class="major">
-							<h2>What makes us different</h2>
-							<p>We live the problems we solve — and we ship fast.</p>
-						</header>
-						<div class="row features">
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper first">
-									<a href="#" class="image featured"><img src="images/focus.jpg" alt="Clinician-led" /></a>
-								</div>
-								<p>We’re a team of Australian clinicians and engineers solving real-world frontline health problems with code.</p>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/secure.jpg" alt="Secure and efficient" /></a>
-								</div>
-								<p>Security, audit trails, local compliance. No-nonsense tech you can run from a Raspberry Pi or scale to the cloud.</p>
-							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/open.jpg" alt="Open philosophy" /></a>
-								</div>
-								<p>We believe in transparency, open standards, and working alongside the existing systems instead of against them.</p>
-							</section>
-						</div>
-					</section>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper">
-					<div id="footer" class="container">
-						<header class="major">
-							<h2>Contact Very Banana Software</h2>
-							<p>Want to collaborate or test a tool? Get in touch.</p>
-						</header>
-						<div class="row">
-							<section class="col-12" id="contact">
-								<form method="post" action="#">
-									<div class="row gtr-50">
-										<div class="col-6 col-12-mobile">
-											<input name="name" placeholder="Name" type="text" />
-										</div>
-										<div class="col-6 col-12-mobile">
-											<input name="email" placeholder="Email" type="text" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" placeholder="Message"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" value="Send Message" /></li>
-												<li><input type="reset" value="Clear form" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div>
-					<div id="copyright" class="container">
-						<ul class="menu">
-							<li>&copy; Very Banana Software. All rights reserved.</li>
-							<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div>
-				</div>
-
-		</div>
-
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
-
-	</body>
+  <footer>
+    <p>&copy; 2025 Very Banana Software</p>
+  </footer>
+</body>
 </html>
